@@ -49,16 +49,16 @@ h1 {
 }
 
 .text-content {
-    padding-top: 50px;
+    padding-top: 75px;
     padding-left: 245px;
     width: 465px;
 }
 
 .cow-img {
-    margin-top: 40px;
+    margin-top: 75px;
     padding-right: 245px;
     width: 465px;
-    margin-left: 180px;
+    /* margin-left: 180px; */
 }
 
 p {
@@ -78,9 +78,19 @@ p {
     padding: 22px 70px;
     display: block;
     width: 81px;
+    transition: all 0.5s ease;
+
+}
+
+.botton:hover {
+    background: #F7473F;
+    border-radius: 80px;
+
 
 }
 
 .home {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
