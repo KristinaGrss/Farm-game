@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+
+}
+
+
+.main {
+    width: 1600px;
+    height: 762px;
+    background: #FDFCEF;
+    border-radius: 50px;
+    align-items: center;
+    margin: auto;
+    margin-top: 90px ;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 245px;
+
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 10px;
+    width: 130px;
+}
+
+.logotype {
+    width: 35px;
+    height: 28px;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.19em;
+    margin-bottom: 30px;
+    width: 465px;
+     
+}
+
+.text-content {
+    padding-top: 50px;
+    padding-left: 245px;
+    width: 465px;
+}
+
+.cow-img {
+    margin-top: 40px;
+    padding-right: 245px;
+    width: 465px;
+    margin-left: 180px;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.botton {
+    background: #FF6861;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 22px 70px;
+    display: block;
+    width: 81px;
+
+}
+
+.home {
+    display: flex;
+}
