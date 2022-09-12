@@ -4,32 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ферма</title>
-    <link rel="icon" type="image/x-icon" href="img/image.png">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    
+    <title>FARM GAME</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/cow.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-    
 <body>
-    <div class="str">
-        <div class="main">
-            <div class="logo">
-                <img class="logotype" src="./img/loggo.png" alt="logotype" title="Шапочка фермера">
-                <h2>farmgame</h2>
-            
-            </div>
-            <div class="home">
-                <div class="text-content">
-                    <h1 >Legendary farm game in your <br> hands</h1>
-                    <p>Play as a Helga the Cow to protect your animal <br> friends from the farmer</p>
-                    <a class= "botton" href="#">Play now</a>
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="farmgame" title="шапочка фермера">
+            </a>
+            <div class="wrapper">
+                <div class="offer">
+                    <h1>Legendary farm game in your hands</h1>
+                    <p>Play as a Helga the Cow to protect your <br> animal friends from the Farmer</p>
+                    <a href="#" class="botton">Play now</a>
                 </div>
-                <div class="cow-img">
-                    <img class="image" src="./img/image.png" alt="COW" title="Коровка">
+                <img src="img/cow.png" alt="cow" title="Коровка">
+            </div>
+         </div>
+    </header>
+
+    <section class="game" id="game"> 
+        <div class="container">
+            <h2>What`s inside the game</h2>
+            <div class="game-wrap">
+                <div class="feature">
+                    <img src="img/ran.png" alt="run">
+                    <div class="feature-wrap">
+                        <h3 class="feature-title">Run as fast as you can</h3>
+                        <p class="feature-text">You have to be very fast to not be caught by the Farmer</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="img/animal.png" alt="run">
+                    <div class="feature-wrap">
+                        <h3 class="feature-title">Protect your animal friends</h3>
+                        <p class="feature-text">You have so many friends – protect them all!</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="img/game.png" alt="run">
+                    <div class="feature-wrap">
+                        <h3 class="feature-title">Score as much points as you can</h3>
+                        <p class="feature-text">In the end this is all about points. Show your strength!</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="action" id="action">
+        <div class="container">
+            <div class="action-wrap">
+                <div class="action-text">
+                    <h2>More animals you save, closer your victory!</h2>
+                    <p>Don`t miss the chance to make the <br> Farmer cry again. Animals, be strong!</p>
+                    <a href="#" class="botton">Play now</a>
+                </div>
+                <img src="img/insect.png" alt="animals" title="божья коровка">
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <p class="footer-text">2030 Ⓒ All rights reserved</p>
+
+        </div>
+    </footer>
 </body>
 </html>
