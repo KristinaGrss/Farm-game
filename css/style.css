@@ -119,3 +119,103 @@ p {
     font-size: 15px;
     text-align: center;
 }
+
+/* Responsive */
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+
+    }
+    .header .container {
+        text-align: center;
+    }
+    .offer {
+        width: 720px;
+        
+    }
+    .offer a {
+        margin: 0 auto;
+    }
+    .wrapper {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .action-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 101px;
+    }
+    .action-text { 
+        text-align: center;
+    }
+    .action-text h2 {
+        text-align: center;
+    }
+    .botton {
+        display: block;
+        margin: auto;
+    }
+    .img-end {
+        order: -1;
+    }
+    }
+
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+        margin-bottom: 90px;
+        width: 100%;
+        
+    }
+    h2 {
+        ;
+    
+    }
+    .offer {
+        width: 320px;
+    }
+    
+    .coww {
+        width: 320px;
+        margin: 0 auto;
+    }
+    .img-logo{
+        width: 145px;
+    }
+    .feature { 
+        flex-direction: column;
+        text-align: center;
+    }
+    .game-wrap {
+        width: 320px;
+    }
+    .action-text {
+        width: 100%;
+        width: 280px;
+    }
+    .action-wrap {
+        gap: 50px;
+    }
+    .img-end {
+        width: 201px;
+    }
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+    
