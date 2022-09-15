@@ -179,10 +179,7 @@ p {
         width: 100%;
         
     }
-    h2 {
-        ;
     
-    }
     .offer {
         width: 320px;
     }
@@ -218,4 +215,4 @@ p {
     .container {
         padding: 0 15px;
     }
-    
+}
